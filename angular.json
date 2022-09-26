@@ -23,7 +23,10 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.css",
+              "src/assets/construcao/css/style.css",
+              "src/assets/construcao/css/reset.css",
+              "src/assets/construcao/font.css"
             ],
             "scripts": []
           },
@@ -97,5 +100,8 @@
         }
       }
     }
+  },
+  "cli": {
+    "analytics": false
   }
 }

@@ -23,10 +23,9 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css",
-              "src/assets/construcao/css/style.css",
-              "src/assets/construcao/css/reset.css",
-              "src/assets/construcao/font.css"
+              "src/assets/font.css",
+              "src/assets/css/style.css",
+              "src/assets/css/reset.css"
             ],
             "scripts": []
           },

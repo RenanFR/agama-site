@@ -5,8 +5,8 @@ import { IndexComponent } from './index.component';
 const routes: Routes = [
   {
     path: '',
-    component: IndexComponent,
-  },
+    component: IndexComponent
+  }
 ];
 
 @NgModule({

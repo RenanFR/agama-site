@@ -5,16 +5,22 @@ const routes: Routes = [
   {
     path: '',
     pathMatch: 'full',
-    redirectTo: 'index/index',
+    redirectTo: 'index',
+  },
+  {
+    path: 'index',
+    loadChildren: () =>
+      import('./index/index.module').then((m) => m.IndexModule),
   },
   {
     path: 'contato',
-    redirectTo: 'contact/contact'
+    loadChildren: () =>
+      import('./contact/contact.module').then((m) => m.ContactModule),
   }
 ];
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
-  exports: [RouterModule]
+  exports: [RouterModule],
 })
-export class AppRoutingModule { }
+export class AppRoutingModule {}

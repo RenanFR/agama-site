@@ -1,0 +1,319 @@
+body{
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        background: #303030;
+    }
+
+header{
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    background: #303030;
+}
+
+.nav02{
+    position: absolute;
+    right: 25%;
+    bottom: 90;
+}
+
+.agama-logo{
+    align: center;
+}    
+
+nav {
+    position: absolute;
+    top: 90px;
+      }
+
+.arrow-return:hover{
+    transition: 1s;
+    fill: #CC0866
+    }
+
+.arrow-return:active{
+    transition: 1s;
+    color:#3A35EB;
+    }    
+
+.box{
+    width: 50%;
+    height: 1.5em;
+    display: flex;
+    margin: 0 auto;
+    top: 50px;
+    padding: 100px 10px;
+    }
+
+h2{
+    font-family: 'Semplicita Modern', Helvetica, serif;
+    font-weight: bold;
+    color: #ffffff;
+    font-size: 50px;
+    margin: 0 2.5%;
+    line-height: 50px;
+}
+
+p{
+        font-family: 'Semplicita Modern', Helvetica, serif;
+        font-weight: light;
+        color: #ffffff;
+        font-size: 30px;
+        margin: 0 2.5%;
+        line-height: 40px;
+    }	
+
+    form label{
+        font-family: 'Semplicita Modern', Helvetica, serif;
+        font-weight: light;
+        font-size: 20px;
+        color: #ffffff;
+    }
+    
+    .box-02{
+        position: relative;
+        font-family: 'Semplicita Modern', Helvetica, serif;
+        font-weight: light;
+        text-align: left;
+        width: 50%;
+        margin: 0 auto;
+        align-items: center;
+        padding: 0 3% ;
+    }
+    
+    .nome{
+        font-family: 'Semplicita Modern', Helvetica, serif;
+        font-weight: light;
+        text-align: left;
+        font-size: 20px;
+        display: inline-block;
+        width: 27%;
+        padding: 0.5em 0.5em;
+        margin-right: 10px;
+    }
+    
+    .empresa{
+        font-family: 'Semplicita Modern', Helvetica, serif;
+        font-weight: light;
+        text-align: left;
+        font-size: 20px;
+        display: inline-block;
+        width: 27%;
+        padding: 0.5em 0.5em;
+        margin-bottom: 10px;
+        margin-right: 25%;
+    }
+    
+    .email{
+        font-family: 'Semplicita Modern', Helvetica, serif;
+        font-weight: light;
+        text-align: left;
+        font-size: 20px;
+        margin-right: 10px;
+        display: inline-block;
+        padding: 0.5em 0.5em;
+        width: 27%;
+    }
+    
+    footer{
+        height: 50px;
+    }
+    
+    .celular{
+        font-family: 'Semplicita Modern', Helvetica, serif;
+        font-weight: light;
+        text-align: left;
+        font-size: 20px;
+        display: inline-block;
+        padding: 0.5em 0.5em;
+        width: 27%;
+        margin-bottom: 10px;
+    }
+    
+    .assunto{
+        font-family: 'Semplicita Modern', Helvetica, serif;
+        font-weight: light;
+        text-align: left;
+        font-size: 20px;
+    
+        display: block;
+        padding: 0.5em 0.5em;
+        width: 80%;
+        margin-bottom: 10px;
+    }
+    
+    .mensagem{
+        font-family: 'Semplicita Modern', Helvetica, serif;
+        font-weight: light;
+        text-align: left;
+        font-size: 20px;
+        display: block;
+        padding: 0.5em 0.5em;
+        width: 95%;
+        margin-bottom: 20px;
+    }
+    
+    .contact{
+        font-family: 'Semplicita Modern', Helvetica, serif;
+        font-weight: light;
+        text-align: left;
+        display: inline;
+        font-size: 20px;
+        margin-bottom: 10px;
+            }
+    
+    #checks{
+        margin-top: 1.5em;
+        margin-bottom: 15px;
+    }
+    
+    .receber{
+        font-family: 'Semplicita Modern', Helvetica, serif;
+        font-weight: light;
+        text-align: left;
+        display: block;
+        font-size: 20px;
+        margin-bottom: 20px;
+                }
+    
+    .enviar{
+        font-family: 'Semplicita Modern', Helvetica, serif;
+        font-weight: bold;
+        text-align: left;
+        font-size: 15px;
+        width: 27%;
+        padding: 15px 15px 15px 15px;
+        background: #CC0866;
+        transition: 1s;
+        color: #ffffff;
+        border: none;       
+        bottom: 50px;    
+    }
+    
+    .enviar:hover{
+        font-family: 'Semplicita Modern', Helvetica, serif;
+        font-weight: light;
+        text-align: left;
+        font-size: 15px;
+        width: 27%;
+        border: bold;
+        background: linear-gradient(to right, #CC0866, #3A35EB);
+        background-size: 300% 100%;
+        transition: 2s;
+            animation-name: gradient-animation;
+            animation-duration: 1s;
+            animation-timing-function: ease-in-out;
+            animation-direction: alternate;
+            animation-iteration-count: infinite;
+    }
+    
+    @keyframes gradient-animation{
+    0%{
+        background-position-x: 0%;
+    }
+    100%{
+        background-position-x: 100%;
+    }
+    }
+    
+    .enviar:active{
+    font-family: 'Semplicita Modern', Helvetica, serif;
+        font-weight: bold;
+        text-align: left;
+        font-size: 15px;
+            width: 25%;
+            padding: 15px 15px 15px 15px;
+            background: black;
+            color: #ffffff;
+                border: none;
+        }
+    
+
+@media (max-width: 480px){
+    @media (max-width: 480px){
+        body{
+            width: 100%;
+        }
+        .box{
+        width: 80%;
+        }
+        .box-02{
+            width: 80%;
+            margin: 10px auto;
+            }
+            .nome{
+                width: 80%;
+                margin-top: 0%;
+                margin-bottom: 2%;
+                margin-right: 0%;
+                margin-left: 0%;
+            }
+            .empresa{
+                width: 80%;
+                margin-top: 0%;
+                margin-bottom: 2%;
+                margin-right: 0%;
+                margin-left: 0%;
+            }
+            .email{
+                width: 80%;
+                margin-top: 0%;
+                margin-bottom: 2%;
+                margin-right: 0%;
+                margin-left: 0%;
+            }
+            .celular{
+                width: 80%;
+                margin-top: 0%;
+                margin-bottom: 2%;
+                margin-right: 0%;
+                margin-left: 0%;
+            }
+            .mensagem{
+                width: 93%;
+                margin-top: 0%;
+                margin-bottom: 2%;
+                margin-right: 0%;
+                margin-left: 0%;
+            }
+    
+            .enviar{
+                width: 50%;
+                margin-top: 0%;
+                margin-bottom: 2%;
+                margin-right: 0%;
+                margin-left: 0%;
+            }
+            nav{
+                top: 14%;
+                left: 9.5%;
+        }
+            .nav02{
+                top: 4%;
+                left: 9.5%;
+            }
+            .contact{
+                width: 100%;
+                margin-top: 0%;
+                margin-bottom: 100%;
+                margin-right: 0%;
+                margin-left: 0%;
+                    }
+            
+            #checks{
+                width: 100%;
+                margin-top: 4%;
+                margin-bottom: 2%;
+                margin-right: 0%;
+                margin-left: 0%;
+            }
+            
+            .receber{
+                width: 100%;
+                margin-top: 0%;
+                margin-bottom: 5%;
+                margin-right: 0%;
+                margin-left: 0%;
+                        }
+            }

@@ -22,20 +22,18 @@
   </div>
 </header>
 <main>
-  <form id="formulario"
-  method="POST"
-  action="https://script.google.com/macros/s/AKfycbx3L3TOa36A1OPQty6WQek8a3BlQBQ0aAw4RMrSY_hCw8DQY1_j4eH1E7lFbX00y9Ze9A/exec">
+  <form [formGroup]="contactForm" (submit)="onSend()" id="formulario">
       <fieldset class="box-02">
 
-          <input name="Nome" type="text" id="nomecompleto"  class="nome" required placeholder="Nome completo">
-          <input name="Empresa" type="text" id="empresa"  class="empresa" required placeholder="Empresa">
+          <input formControlName="customerName" name="Nome" type="text" id="nomecompleto"  class="nome" required placeholder="Nome completo">
+          <input formControlName="company" name="Empresa" type="text" id="empresa"  class="empresa" required placeholder="Empresa">
 
-          <input name="E-mail" type="email" id="email"  class="email" required placeholder="E-mail">
-          <input name="Celular" type="tel" id="celular"  class="celular" placeholder="Celular">
+          <input formControlName="customerEmail" name="E-mail" type="email" id="email"  class="email" required placeholder="E-mail">
+          <input formControlName="customerMobile" name="Celular" type="tel" id="celular"  class="celular" placeholder="Celular">
 
-          <input name="Assunto" type="text" id="assunto"  class="assunto" required placeholder="Assunto">
+          <input formControlName="topic" name="Assunto" type="text" id="assunto"  class="assunto" required placeholder="Assunto">
 
-          <textarea name="Mensagem" class="mensagem" cols="30" rows="10" required placeholder="Agora, por favor comente o que nós podemos fazer por você?"></textarea>
+          <textarea formControlName="customerMessage" name="Mensagem" class="mensagem" cols="30" rows="10" required placeholder="Agora, por favor comente o que nós podemos fazer por você?"></textarea>
 
       </fieldset>
 
